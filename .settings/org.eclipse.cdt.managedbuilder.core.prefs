@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/com.atollic.truestudio.lib.debug.1861256099/CPATH/delimiter=;
+environment/buildEnvironmentInclude/com.atollic.truestudio.lib.debug.1861256099/CPATH/operation=remove
+environment/buildEnvironmentInclude/com.atollic.truestudio.lib.debug.1861256099/C_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/com.atollic.truestudio.lib.debug.1861256099/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/com.atollic.truestudio.lib.debug.1861256099/append=true
+environment/buildEnvironmentInclude/com.atollic.truestudio.lib.debug.1861256099/appendContributed=true
+environment/buildEnvironmentInclude/com.atollic.truestudio.lib.release.168943021/CPATH/delimiter=;
+environment/buildEnvironmentInclude/com.atollic.truestudio.lib.release.168943021/CPATH/operation=remove
+environment/buildEnvironmentInclude/com.atollic.truestudio.lib.release.168943021/C_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/com.atollic.truestudio.lib.release.168943021/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/com.atollic.truestudio.lib.release.168943021/append=true
+environment/buildEnvironmentInclude/com.atollic.truestudio.lib.release.168943021/appendContributed=true

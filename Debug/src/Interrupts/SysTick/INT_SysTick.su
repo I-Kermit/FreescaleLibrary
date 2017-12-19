@@ -1,0 +1,5 @@
+core_cm4.h:1156:22:NVIC_SetPriority	16	static
+core_cm4.h:1281:26:SysTick_Config	16	static
+INT_SysTick.c:21:13:DVR_SysTickInit	8	static
+INT_SysTick.c:28:13:DVR_SetFunction	16	static
+INT_SysTick.c:33:41:SysTick_Handler	16	static

@@ -1,0 +1,3 @@
+DVR_Led.c:14:6:LedInit	16	static
+DVR_Led.c:19:6:LedOn	24	static
+DVR_Led.c:43:6:LedOff	16	static

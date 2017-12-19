@@ -1,0 +1,3 @@
+INT_SysTick.c:28:13:DVR_SetFunction	0	static
+INT_SysTick.c:21:13:DVR_SysTickInit	0	static
+INT_SysTick.c:33:41:SysTick_Handler	8	static
