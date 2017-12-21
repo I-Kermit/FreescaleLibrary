@@ -1,5 +1,5 @@
 /*
- * GPIO.h
+ * HAL_Gpio.h
  *
  *  Created on: 1 Mar 2017
  *      Author: Peter Goddard

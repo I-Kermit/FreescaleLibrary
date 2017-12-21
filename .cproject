@@ -17,12 +17,12 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -f" description="" id="com.atollic.truestudio.lib.debug.1861256099" name="Debug" parent="com.atollic.truestudio.lib.debug">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -f" description="" id="com.atollic.truestudio.lib.debug.1861256099" name="Debug" parent="com.atollic.truestudio.lib.debug" postannouncebuildStep="Create single header file." postbuildStep="PostBuild.bat" prebuildStep="">
 					<folderInfo id="com.atollic.truestudio.lib.debug.1861256099." name="/" resourcePath="">
 						<toolChain id="com.atollic.truestudio.lib.debug.toolchain.2072720325" name="Atollic ARM Tools" superClass="com.atollic.truestudio.lib.debug.toolchain">
-							<option id="com.atollic.truestudio.general.runtimelib.1634424527" name="Runtime Library" superClass="com.atollic.truestudio.general.runtimelib" value="com.atollic.truestudio.ld.general.clib.small" valueType="enumerated"/>
-							<option id="com.atollic.truestudio.toolchain_options.mcu.73268103" name="Microcontroller" superClass="com.atollic.truestudio.toolchain_options.mcu" value="MK60N512VMD100" valueType="string"/>
-							<option id="com.atollic.truestudio.toolchain_options.vendor.1343065098" name="Vendor name" superClass="com.atollic.truestudio.toolchain_options.vendor" value="Freescale" valueType="string"/>
+							<option id="com.atollic.truestudio.general.runtimelib.1634424527" name="Runtime Library" superClass="com.atollic.truestudio.general.runtimelib" useByScannerDiscovery="false" value="com.atollic.truestudio.ld.general.clib.small" valueType="enumerated"/>
+							<option id="com.atollic.truestudio.toolchain_options.mcu.73268103" name="Microcontroller" superClass="com.atollic.truestudio.toolchain_options.mcu" useByScannerDiscovery="false" value="MK60N512VMD100" valueType="string"/>
+							<option id="com.atollic.truestudio.toolchain_options.vendor.1343065098" name="Vendor name" superClass="com.atollic.truestudio.toolchain_options.vendor" useByScannerDiscovery="false" value="Freescale" valueType="string"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.atollic.truestudio.lib.debug.toolchain.platform.931639824" isAbstract="false" name="Debug platform" superClass="com.atollic.truestudio.lib.debug.toolchain.platform"/>
 							<builder buildPath="${workspace_loc:/FreescaleLibrary}/Debug" customBuilderProperties="toolChainpathString=C:\\Program Files (x86)\\Atollic\\TrueSTUDIO for ARM 8.1.0\\ARMTools\\bin|toolChainpathType=1|com.atollic.truestudio.common_options.target.vendor=Freescale|com.atollic.truestudio.common_options.target.mcu=MK60N512VMD100|" id="com.atollic.truestudio.mbs.builder1.478706051" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="com.atollic.truestudio.mbs.builder1"/>
 							<tool id="com.atollic.truestudio.lib.debug.toolchain.as.1304301175" name="Assembler" superClass="com.atollic.truestudio.lib.debug.toolchain.as">
@@ -50,9 +50,11 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/CMSIS/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Device/MK60DZ10/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
 								</option>
 								<option id="com.atollic.truestudio.gcc.symbols.defined.717444170" name="Defined symbols" superClass="com.atollic.truestudio.gcc.symbols.defined" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="MK60DN512Vyy10"/>
+									<listOptionValue builtIn="false" value="COMPILE_LIBRARY"/>
 								</option>
 								<inputType id="com.atollic.truestudio.gcc.input.375078503" superClass="com.atollic.truestudio.gcc.input"/>
 							</tool>
@@ -197,9 +199,6 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="FreescaleLibrary.com.atollic.truestudio.lib.1653098827" name="Static Library" projectType="com.atollic.truestudio.lib"/>
 	</storageModule>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
@@ -209,5 +208,11 @@
 		<configuration configurationName="Release">
 			<resource resourceType="PROJECT" workspacePath="/FreescaleLibrary"/>
 		</configuration>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.atollic.truestudio.lib.debug.1861256099;com.atollic.truestudio.lib.debug.1861256099.;com.atollic.truestudio.lib.debug.toolchain.gcc.645303860;com.atollic.truestudio.gcc.input.375078503">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.atollic.truestudio.mbs.ARMToolsPerProjectProfileC"/>
+		</scannerConfigBuildInfo>
 	</storageModule>
 </cproject>

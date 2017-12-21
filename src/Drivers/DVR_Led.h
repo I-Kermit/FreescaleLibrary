@@ -1,16 +1,18 @@
 /*
- * LedDriver.h
+ * DVR_Led.h
  *
  *  Created on: 1 Mar 2017
  *      Author: Peter Goddard
  */
 
-#ifndef DRIVERS_DVR_LED_H_
-#define DRIVERS_DVR_LED_H_
+#ifndef DRIVERS_DVR_LED_H
+#define DRIVERS_DVR_LED_H
 
 #include <stdbool.h>
 
+#if defined(COMPILE_LIBRARY)
 #include "HAL/HAL_Gpio.h"
+#endif
 
 typedef enum{
 	ORANGE_LED,
@@ -32,4 +34,6 @@ typedef struct led_driver_api
 }
 led_driver_api_t;
 
-#endif /* DRIVERS_DVR_LED_H_ */
+extern const led_driver_api_t freescale_m4_led_driver;
+
+#endif /* DRIVERS_DVR_LED_H */
